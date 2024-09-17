@@ -1,0 +1,21 @@
+{
+  "name": "employeemanager",
+  "version": "1.0.0",
+  "description": "Manage an employee database with SQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "employee",
+    "sql",
+    "postgres"
+  ],
+  "author": "gp-person",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "inquirer": "8.2.4",
+    "pg": "^8.13.0"
+  }
+}
